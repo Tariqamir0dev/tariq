@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "paykanblack";
+  font-style: normal;
+  src: url(Paykan-Black.ttf) format("truetype");
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "paykanvf";
+  font-style: normal;
+  src: url(Paykan-VF.ttf) format("truetype");
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "paykanlight";
+  font-style: normal;
+  src: url(Paykan-Light.ttf) format("truetype");
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "paykanregular";
+  font-style: normal;
+  src: url(Paykan-Regular.ttf) format("truetype");
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "paykanthin";
+  font-style: normal;
+  src: url(Paykan-Thin.ttf) format("truetype");
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "paykanbold";
+  font-style: normal;
+  font-weight: 700;
+  src: url(Paykan-Bold.ttf) format("truetype");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+  U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+  U+FEFF, U+FFFD;
+}
+
+body {
+  font-family: "paykanregular", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: "paykanbold", sans-serif;
+}
+
+h2 {
+  font-family: "paykanlight", sans-serif;
+}
